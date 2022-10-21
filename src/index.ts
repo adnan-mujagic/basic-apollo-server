@@ -31,7 +31,9 @@ const typeDefs = `#graphql
   }
 `;
 
-const books: { title: string; author: string }[] = [
+type Book = { title: string; author: string };
+
+const books: Book[] = [
   {
     title: "The Awakening",
     author: "Kate Chopin",
