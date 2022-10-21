@@ -1,0 +1,34 @@
+{
+  "name": "basic-apollo-server",
+  "version": "1.0.0",
+  "description": "Trying apollo server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnan-mujagic/basic-apollo-server.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Apollo",
+    "GraphQL"
+  ],
+  "author": "adnan-mujagic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adnan-mujagic/basic-apollo-server/issues"
+  },
+  "homepage": "https://github.com/adnan-mujagic/basic-apollo-server#readme",
+  "dependencies": {
+    "@apollo/server": "^4.0.1",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.3",
+    "typescript": "^4.8.4"
+  }
+}
